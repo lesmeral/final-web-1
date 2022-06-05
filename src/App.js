@@ -3,21 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <img src='https://static.wikia.nocookie.net/wiki-de-rick-morty/images/6/60/Rick_and_Morty.png/revision/latest?cb=20210623034924&path-prefix=es' alt='title'/>
+      
     </div>
   );
 }
