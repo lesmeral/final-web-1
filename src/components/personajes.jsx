@@ -3,12 +3,14 @@ import '../assets/personajes.css'
 
 const SinglePerson = ({personaje, indx}) => {
   return (
-    <div key={indx}>
-      <img src={personaje.image} alt="pic" />
-      <p>{personaje.name}</p>
-      <p>{personaje.gender}</p>
-      <p>{personaje.species}</p>
-      <p>{personaje.type}</p>
+    <div key={indx} className='caja-personaje'>
+      <img className="imagen-personaje" src={personaje.image} alt="pic" />
+      <div className="texto">
+        <p>{personaje.name}</p>
+        <p>{personaje.gender}</p>
+        <p>{personaje.species}</p>
+        <p>{personaje.type}</p>
+      </div>
   </div>
   )
 }

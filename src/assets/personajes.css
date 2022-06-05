@@ -1,6 +1,17 @@
 .contenedor-personajes{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
+}
+
+.caja-personaje {
+    margin: 25px;
+    text-align: center;
+}
+
+.imagen-personaje{
+    width: 250px;
+    border-radius: 5px;
+    
 }
